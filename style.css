@@ -1,0 +1,38 @@
+.posts {
+    width: 70%;
+    height: 200px;
+    background-color: rgb(129, 120, 183);
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 50px;
+    margin: 30px auto;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(117, 92, 137);
+    display: none;
+}
+.closeIcon {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    color:rgb(199, 196, 204);
+    font-size: 30px;
+    cursor: pointer;
+}
+.overlay.active {
+    display: block;
+}
+p{
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
+}
